@@ -2,5 +2,10 @@
 	"name": "CodeCollab",
 	"version": "0.1",
 	"description": "Write Code Together!",
+	"permissions": ["activeTab", "declaritiveContent"],
+	"background": {
+		"scripts": ["highlight.pack.js"],
+		"persistent": false
+	},
 	"manifest_version": 2
 }
