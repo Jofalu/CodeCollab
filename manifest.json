@@ -4,7 +4,7 @@
 	"description": "Write Code Together!",
 	"permissions": ["activeTab", "declarativeContent"],
 	"background": {
-		"scripts": ["highlight.pack.js"],
+		"scripts": ["highlight.pack.js", "background.js"],
 		"persistent": false
 	},
 	"page_action": {
