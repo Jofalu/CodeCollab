@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!--   This is where all .css and .js files related to this popup go, as well as metadata --> 
+	<!--   This is where all .css and .js files related to this popup go, as well as metadata --> 
+	<script src="popup.js""></script>
+	<script src="jquery-3.3.1.js"></script>
 </head>
 <body>
 	
 <div class="languages">
-<form>
-<input type="radio" name="language" value="java"> Java<br>
-<input type="radio" name="language" value="python"> Python<br>
-</form>
+	<form>
+		<input type="radio" name="language" value="java"> Java<br>
+		<input type="radio" name="language" value="python"> Python<br>
+	</form>
 </div>
 
 <div class="codifier">
-<form>
-<input type="range" name="codify" min="0" max="1"> Codifer
-</form>
+	<form>
+		<input type="range" id="form_codify" name="codify" min="0" max="1"> Codifer
+	</form>
 </div>
 
 <div class="dropdown">
@@ -30,6 +32,6 @@ Choose a compiler
 
 <div class="run">
 	<input type="button" value="RUN">
-	</div>
+</div>
 </body>
 </html>
