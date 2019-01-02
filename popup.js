@@ -1,4 +1,4 @@
-var codify = document.getElementById('form_codify').value;
+document.getElementById('form_codify').addEventListener
 
 alert(codify)
 /*popup.js will check the value of the codifier slider in popup.html
