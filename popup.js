@@ -1,8 +1,6 @@
-document.getElementById('form_codify').addEventListener
+document.getElementById('form_codify').addEventListener("change", 
 
-alert(codify)
-/*popup.js will check the value of the codifier slider in popup.html
-If the value is 1, then it will run highlight.js on the text of the Google Doc
+/*popup.js has an event listener on the codify , then it will run highlight.js on the text of the Google Doc
 over an indefinite length using an event trigger.
 
 1. Implement way for popup.js to check when to codify
